@@ -1,0 +1,10 @@
+[package]
+name = "tower-http-signatures"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-channel = "0.3.18"
+rayon = "1.5.1"
+ring = "0.16.20"
+tower-service = "0.3.1"
